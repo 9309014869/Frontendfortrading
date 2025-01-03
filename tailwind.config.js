@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       animation: {
+<<<<<<< HEAD
         tilt: 'tilt 3s linear infinite'
       },
       keyframes: {
@@ -17,8 +18,22 @@ export default {
         }
       },
       
+=======
+        marquee: 'marquee 15s linear infinite',
+        marquee2: 'marquee2 15s linear infinite',
+      },
+      keyframes: {
+        marquee: {
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(-100%)' },
+        },
+        marquee2: {
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+      },
+>>>>>>> e5050f8b5cb7cd7ff89b09a38292a9e09eedaf83
     },
   },
   plugins: [],
-}
-
+};
