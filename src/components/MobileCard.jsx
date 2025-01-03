@@ -108,7 +108,7 @@ function MobileCard() {
             ))}
           </div>
 
-          {/* Marquee Section */}
+        
           <div className="mt-16 flex justify-between text-center">
             {[1, 2, 3, 4].map((num) => (
               <div
